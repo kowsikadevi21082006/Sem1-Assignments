@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Gotu&display=swap");
+
+body {
+  background-color: dodgerblue;
+  font-family: "Gotu", sans-serif;
+  color: white;
+}
+
+#AppBody {
+  text-align: center;
+  position: relative;
+  top: 100px;
+  width: 60%;
+  height: 150%;
+  align-self: center !important;
+  margin: 30px auto;
+  background: blueviolet;
+  padding-bottom: 10px;
+}
+
+#showAge {
+  padding: 20px;
+  font-size: 20px;
+  border-radius: 5px;
+  background: #29004f;
+  width: 65%;
+  margin: 15px auto;
+}
+
+h1 {
+  background-color: black;
+  margin: 0 0 20px 0;
+  padding: 10px;
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+form {
+  text-align: center;
+}
+
+input {
+  border: 0;
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 50px;
+  margin: 5px;
+}
+
+#CalButton {
+  border-radius: 6px;
+}

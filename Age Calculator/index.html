@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Age Calculator</title>
+  </head>
+  <body>
+    <div id="AppBody">
+      <form>
+        <h1 id="AppName">Age Calculator</h1>
+
+        <p id="text01">
+          Birth Date: <input id="birthdate" type="" required />
+        </p>
+        <p>Current Date: <input id="currentdate" type="" required /></p>
+
+        <input
+          id="CalButton"
+          type="button"
+          value="Calculate"
+          onclick="calculateDiff()"
+        />
+
+        <p id="showAge">Age:</p>
+      </form>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

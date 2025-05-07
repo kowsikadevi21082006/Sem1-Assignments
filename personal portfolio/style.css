@@ -1,0 +1,298 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins' , sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    color: white;
+    background-attachment: scroll;
+}
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://w0.peakpx.com/wallpaper/153/552/HD-wallpaper-black-battery-saver-color-colour-plain-solid.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.logo{
+    position: absolute;
+    left: 1100px;
+    top: 100px;
+}
+.container{
+    padding: 10px 10%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+    left: 900px;
+}
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left: 0%;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    font-size: 30px;
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ff004f;
+}
+#about{
+    padding: 80px 0;
+    color: #ababab;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.about-col-2{
+    flex-basis: 60%;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+}
+.para{
+    position: relative;
+    top: 40px;
+    font-size: 28px;
+    bottom: 1px;
+}
+.sub-title1{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    bottom: 420px;
+}
+#aim{
+    position: absolute;
+    top: 250%;
+    font-size: 28px;
+}
+#pic{
+    position: relative;
+    top: 30px;
+    width: 350px;
+    height: 350px;
+    left: 900px;
+    border-radius: 10px;
+}
+.my{
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    top: 90px;
+    left: 500px;
+}
+#mus{
+    position: relative;
+    top: 120px;
+    right: 0px;
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+}
+#rea{
+    position: relative;
+    top: 120px;
+    right: 100px;
+    left: 158px;
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+}
+#coo{
+    position: relative;
+    bottom: 214px;
+    right: 100px;
+    left: 978px;
+    width: 330px;
+    height: 330px;
+    border-radius: 10px;
+}
+.head1{
+    position: relative;
+    top: 780px;
+    right: 1160px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.head2{
+    position: relative;
+    top: 760px;
+    right: 650px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.head3{
+    position: relative;
+    top: 740px;
+    right: 120px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.ski{
+    font-size: 50px;
+    font-weight: 400;
+    position: relative;
+    top: 380px;
+    right: 300px;
+}
+#pyt{
+    position: relative;
+    top: 470px;
+    right: 590px;
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+#htm{
+    position: relative;
+    top: 470px;
+    right: 470px;
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;
+}
+#css{
+    position: relative;
+    top: 50px;
+    left: 970px;
+    width: 380px;
+    height: 380px;
+    border-radius: 10px;   
+}
+.head4{
+    position: relative;
+    top: 460px;
+    right: 540px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.head5{
+    position: relative;
+    top: 440px;
+    right: 10px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.head6{
+    position: relative;
+    top: 420px;
+    left: 460px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+.sub-title2{
+    font-size: 60px;
+    font-weight: 600;
+    position: relative;
+    bottom: 0px;
+    top: 530px;
+    right: 990px;
+}
+.pro ul li a{
+    color: azure;
+    text-decoration: none;
+    font-size: 48px;
+    font-weight: bold;
+    position: relative;
+    left: 150px; 
+    top: 260px;
+    list-style: none;
+}
+.pro ul li a:hover{
+    color: #ff004f;
+}
+.btn{
+    display: block;
+    margin: 50px auto;
+    width: fit-content;
+    border: 1px solid #ff004f;
+    padding: 14px 50px;
+    border-radius: 10px;
+    text-decoration: none;
+    color: azure;
+    transition: 0.5s;
+    position: relative;
+    top: 250px;
+}
+.btn:hover{
+    background: #ff004f;
+}
+.con{
+    position: relative;
+    top: 250px;
+}
+p{
+    position: relative;
+    top: 265px;
+}
+.btn.btn2{
+    display: inline-block;
+    background: #ff004f;
+    position: relative;
+    top: 110px;
+    left: 160px;
+}
+.contact-right form{
+    width: 80%;
+    position: relative;
+    top: 280px;
+}
+form input, form textarea{
+    width: 80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 15px;
+    margin: 15px 0;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 8px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 20px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
